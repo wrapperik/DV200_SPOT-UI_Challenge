@@ -1,0 +1,95 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.why-card{
+    width: 300px;
+    height: 200px;
+    color: white;
+    background-color: rgba(40, 40, 40, 0.607);
+    border-radius: 1rem;
+    border:  0.5px solid #2c2c2c;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    transition: 0.5s;
+    background: rgb(30, 30, 30);
+    box-shadow: 0 0 1px white;
+}
+
+.why-card:hover {
+    background: rgb(21, 21, 21);
+    box-shadow: 0 0 1px white,
+              0 0 3px white,
+              0 0 4px white,
+              0 0 6px white;
+    scale: 1.05;
+
+}
+
+.why-card img{
+    width: 50px;
+    margin: 10px 10px 20px 10px;
+}
+
+.why-choose-us-card-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 15%;
+}
+
+.why-choose-us-container{
+    margin: 50px 0px;
+}
+
+.team-card-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 15%;
+}
+
+.team-card img{
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Match the height to the width */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Scale the image properly */
+    margin: 20px auto;
+    box-shadow: #858585 0px 0px 3px;
+}
+
+.team-card{
+    width: 300px;
+    height: fit-content;
+    color: white;
+    background-color: rgba(40, 40, 40, 0.607);
+    border-radius: 1rem;
+    border:  0.5px solid #2c2c2c;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    transition: 0.5s;
+    background: rgb(30, 30, 30);
+    box-shadow: 0 0 1px white;
+}
+
+.team-card:hover{
+    background: rgb(21, 21, 21);
+    box-shadow: 0 0 1px white,
+              0 0 3px white,
+              0 0 4px white,
+              0 0 6px white;
+    scale: 1.05;
+}
+
+.team-card h5{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px 0px;
+}

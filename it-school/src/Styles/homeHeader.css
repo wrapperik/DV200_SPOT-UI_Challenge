@@ -55,8 +55,15 @@
     backdrop-filter: blur(100px);
 }
 
+.header-content h1{
+    text-align: left;
+}
+
 .header h1 {
     font-size: 2em;
+   
 }
+
+
 
 
