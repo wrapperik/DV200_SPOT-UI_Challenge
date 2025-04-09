@@ -1,0 +1,29 @@
+.alternative-header{
+    background-color: #1b1b1b;
+    background-image: url('/public/Assets/alternativeBG.jpg');
+    background-size: cover;
+    padding: 20px;
+    height: 400px;
+    
+}
+
+.alternative-header-content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100%;
+}
+
+.alternative-header-content h1 {
+    font-size: 100px;
+    color: rgb(0, 0, 0); /* Set the text color */
+    text-shadow: 
+        -1.5px 0 0 rgb(255, 255, 255), /* Left shadow */
+        1.5px 0 0 rgb(255, 255, 255),  /* Right shadow */
+        0 -1.5px 0 rgb(255, 255, 255), /* Top shadow */
+        0 1.5px 0 rgb(255, 255, 255);  /* Bottom shadow */
+    text-align: left;
+    margin: 0 15%;
+    letter-spacing: 6px;
+}

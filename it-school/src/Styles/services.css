@@ -1,0 +1,59 @@
+.services-content {
+  margin: 50px 30%;
+  padding: 20px;
+}
+
+.services-content h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 40px;
+    cursor:default;
+}
+
+.service-category {
+  margin-bottom: 20px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  transition: ease-in-out 0.5s;
+}
+
+.service-category:hover {
+    background-color: #444;
+    transition: background-color 0.3s ease;
+    scale: 1.05;
+}
+
+.service-category h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  cursor:default;
+}
+
+.service-category p {
+  font-size: 1rem;
+  color: #9f9f9f;
+  cursor:default;
+}
+
+.cta-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cta-button button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 30px;
+}
+
+.cta-button button:hover {
+  background-color: #0056b3;
+}

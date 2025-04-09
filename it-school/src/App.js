@@ -5,6 +5,7 @@ import HomeHeader from './Components/homeHeader';
 import KeyFeatures from './Components/keyFeatures';
 import AboutUs from './Components/aboutUs'; 
 import Services from './Components/services';
+import Contact from './Components/contact';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           } />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
