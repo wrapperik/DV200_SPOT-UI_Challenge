@@ -4,6 +4,7 @@ import Navbar from './Components/navbar';
 import HomeHeader from './Components/homeHeader';
 import KeyFeatures from './Components/keyFeatures';
 import AboutUs from './Components/aboutUs'; 
+import Services from './Components/services';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             </>
           } />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/services" element={<Services />} />
         </Routes>
       </div>
     </Router>
