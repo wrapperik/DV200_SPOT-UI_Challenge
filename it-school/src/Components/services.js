@@ -1,6 +1,7 @@
 import React from 'react';
 import ServicesHeader from './servicesHeader';
 import services from '../Styles/services.css';
+import Footer from '../Components/footer';
 
 function Services() {
   return (
@@ -32,6 +33,7 @@ function Services() {
           <button onClick={() => window.location.href = '/contact'}>Book a Consultation</button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

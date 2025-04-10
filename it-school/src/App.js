@@ -6,6 +6,7 @@ import KeyFeatures from './Components/keyFeatures';
 import AboutUs from './Components/aboutUs'; 
 import Services from './Components/services';
 import Contact from './Components/contact';
+import Footer from './Components/footer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <>
               <HomeHeader />
               <KeyFeatures />
+              <Footer />
             </>
           } />
           <Route path="/about-us" element={<AboutUs />} />

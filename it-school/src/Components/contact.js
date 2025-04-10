@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactHeader from './contactHeader';
 import '../Styles/contact.css';
+import Footer from '../Components/footer';
 
 function Contact() {
   return (
@@ -56,7 +57,7 @@ function Contact() {
           <div className="accordion" id="faqAccordion">
             <div className="accordion-item">
               <h2 className="accordion-header" id="faq1">
-                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                   How do I get started with a virtual assistant?
                 </button>
               </h2>
@@ -81,6 +82,7 @@ function Contact() {
           </div>
         </div>
       </div>
+    <Footer />
     </div>
   );
 }

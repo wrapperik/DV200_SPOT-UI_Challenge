@@ -10,3 +10,8 @@
     display: flex;
     right: 0px;
 }
+
+.nav-link.active {
+    font-weight: bold; /* Makes the active link bold */
+    color: #ffffff; /* Optional: Ensure the active link color matches your theme */
+}

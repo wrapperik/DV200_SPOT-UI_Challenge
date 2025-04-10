@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../Styles/homeHeader.css';
 
 
@@ -11,7 +12,9 @@ const HomeHeader = () => {
             <div className="header-content">
                 <h1>Kickstart Your <strong>IT Career</strong> with Our 4-Month Bootcamps</h1>
                 <p>Master essential IT skills with our intensive, career-focused courses in A+, Python, React, ICDL, Java, and Project Management.</p>
-                <button>Learn More</button>
+                <Link to="/about-us">
+                    <button>Learn More</button>
+                </Link>
             </div>
         </div>
     );

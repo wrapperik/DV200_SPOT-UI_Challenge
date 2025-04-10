@@ -3,11 +3,11 @@
     justify-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 50px 30px;
+    margin: 50px 15%;
 }
 
 .feature-card{
-    width: 300px;
+    width: 250px;
     height: 250px;
     color: white;
     background-color: rgba(40, 40, 40, 0.607);
